@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 27px;
+    flex-direction: row;
+}
+
+.header p{
+    font-family: "Lexend";
+      font-size: 20px;
+      font-weight:400;
+      color: #444444;
+      margin: 0;
+      margin-right: 5%;
+      text-align: center;
+      flex: 1;
+}
+
+#div1{
+    width: 76.5%;
+}
+
+.header img{
+    margin-left: 31px;
+    margin-right: 5%;
+    width: 130px;
+    height: 91px;
+}

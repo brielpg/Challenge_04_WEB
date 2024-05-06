@@ -1,0 +1,25 @@
+.header23{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 27px;
+    flex-direction: row;
+}
+
+.header23 p{
+    font-family: "Lexend", sans-serif;
+    font-size: 34px;
+    font-weight:400;
+    color: #888888;
+    margin-left: 8%;
+}
+
+#div1{
+    width: 100%;
+}
+
+.header23 img{
+    margin-right: 3%;
+    width: 130px;
+    height: 91px;
+}

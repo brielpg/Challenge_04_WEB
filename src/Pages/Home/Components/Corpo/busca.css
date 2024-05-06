@@ -1,0 +1,83 @@
+#divBusca{
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    align-items: center;
+}
+
+/* sepramos em divs para facilitar a estilização */
+
+#divBusca h1{
+    color: rgb(109, 109, 109);
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.barra__pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.pesquisar__input {
+    flex: 1;
+    width: 0%;
+    max-width: 904px;
+    height: 78px;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 28px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    font-weight: 300;
+    font-family: "Lexend";
+    font-size: 34px;
+    margin-left: 20px;
+}
+
+/* estilização da parte de input, sendo responsivo e de acordo com o figma */
+
+.pesquisar__img {cursor: pointer;}
+/* Ajuste de Tela */
+@media (min-width: 276px){
+    #divBusca{
+        margin-top: 240px;
+    }
+
+    .pesquisar__input {
+        font-size: 22px;
+    }
+
+}
+
+@media (min-width: 810px){
+    #divBusca{
+        margin-top: 160px;
+    }
+
+    .pesquisar__input {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 992px){
+    #divBusca{
+        margin-top: 160px;
+    }
+
+    .pesquisar__input {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 1200px){
+    #divBusca{
+        margin-top: 160px;
+    }
+
+    .pesquisar__input {
+        font-size: 34px;
+    }
+}

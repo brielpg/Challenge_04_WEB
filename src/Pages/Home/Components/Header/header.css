@@ -1,0 +1,130 @@
+p, a, h1{
+    font-family: "Lexend";
+      font-size: 15px;
+      line-height: 24px;
+      align-items: center;
+      font-weight:500;
+      color: white
+  }
+
+.cabecalho__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20.75px;
+    background-color: white;
+    height: 120px;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    border-bottom: 2px solid #009ED5;
+  }
+
+/* estilizando o Cabeçalho principal*/
+  
+  .item {
+    background-color: #009EDB;
+    border-radius: 56px;
+    cursor: pointer;
+  }
+/* estilizando o item do header*/
+
+  .item:hover {
+    background-color: #0074a1;
+    transition: 0.4s;
+  }
+
+  #imagem1{
+    width: 130px;
+    height: 91px;
+    margin-left: 31px;
+    margin-right: 11.2px;
+  }
+  
+  #imagem2{
+    width: 58px;
+    height: 58px;
+    display: none;
+  }
+
+  #login{
+    margin-left: auto;
+    margin-right: 1%;
+  }
+
+  /* Ajuste de tela */
+@media (min-width: 276px){
+    .cabecalho__container{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .item {
+        margin-top: 27px;
+        justify-self: start;
+        padding: 14px 8px;
+    }
+
+    #login{
+        padding: 14px 20px;
+    }
+
+    #imagem1{
+        margin-top: 27px;
+    }
+}
+
+@media (min-width: 768px){
+    .cabecalho__container{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .item {
+        margin-top: 27px;
+        padding: 14px 8px;
+    }
+
+    #imagem1{
+        margin-top: 27px;
+    }
+
+    #login{
+        padding: 14px 22px;
+    }
+}
+
+@media (min-width: 992px){
+    .cabecalho__container{
+        height: 120px;
+    }
+
+    .item {
+        margin-top: 0;
+        padding: 14px 15px;
+    }
+
+    #login{
+        padding: 14px 30px;
+    }
+
+    #imagem1{
+        margin-top: 0;
+      }
+}
+/* Tela PC */
+@media (min-width: 1200px){
+    .cabecalho__container{
+        height: 120px;
+    }
+
+    .item {
+        margin-top: 0;
+        padding: 14px 35px;
+    }
+    #login{
+        padding: 14px 45px;
+    }
+
+    #imagem1{
+        margin-top: 0;
+      }
+}

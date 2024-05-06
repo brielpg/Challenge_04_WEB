@@ -1,0 +1,52 @@
+.footer__container{
+    margin-top: 42px;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+    margin-left: 23.5%;
+    margin-right: 23.5%;
+
+    text-align: center;
+}
+
+.informacoes a{
+    font-family: "Lexend";
+    font-size: 20px;
+    font-weight:400;
+    color: #444444;
+
+    flex-grow: 1;
+}
+
+.informacoes img{
+    margin-top: 47px;
+    width: 100%;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+.descricoes{
+    display: flex;
+
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.descricoes a{
+    font-family: "Lexend";
+    font-size: 20px;
+    font-weight:400;
+    color: #444444;
+
+    margin-left: 33px;
+}
+
+#itens__descricoes{
+    flex-grow: 1;
+    margin-left: 25%;
+}

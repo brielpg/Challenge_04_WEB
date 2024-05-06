@@ -1,0 +1,9 @@
+#main{
+    display: flex;
+}
+
+#perfil>p{
+    font-family: 'Lexend';
+    font-size: 28px;
+    font-weight: 500;
+}

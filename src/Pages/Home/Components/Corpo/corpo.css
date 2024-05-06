@@ -1,0 +1,38 @@
+#corpo{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos{
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#corpo h2{
+    font-family: "Lexend";
+    font-weight: 500;
+    font-size: 48px;
+    align-items: center;
+    font-weight: bolder;
+    color: #0D9DDA;
+}
+
+/* estilizando os textos */
+
+.textos h3{
+    margin-top: 20px;
+    width: 60%;
+    font-family: "Lexend";
+    font-weight: 500;
+    font-size: 24px;
+    align-items: center;
+    font-weight: bolder;
+    color: #2B93B7;
+}

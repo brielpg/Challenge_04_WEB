@@ -1,0 +1,48 @@
+#grupo{
+    display: flex;
+    flex-direction: column;
+}
+
+.Titulo{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#grupo h1{
+    font-family: "Lexend";
+    font-weight: 500;
+    font-size: 48px;
+    color: #777777;
+    margin-bottom: 40px;
+}
+
+#grupo p{
+    font-family: "Lexend";
+    font-weight: 200;
+    font-size: 20px;
+    color: #777777;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+#grupo img{
+    margin-left: 5%;
+}
+
+#imgultima{
+    margin-bottom: 2%;
+}
+
+@media (max-width: 813px){
+    #grupo h1{
+        font-family: "Lexend";
+        font-weight: 500;
+        font-size: 38px;
+        color: #777777;
+        margin-bottom: 40px;
+    }
+}
